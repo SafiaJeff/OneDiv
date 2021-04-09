@@ -417,15 +417,9 @@ textarea {
 #shapes > div {
   grid-area: shapes;
 }
-#shapes > div #red-circle {
+#shapes > div #square {
   height: 200px;
   width: 200px;
-  background-color: #e64307;
-  border-radius: 100%;
-  margin-left: 300px;
-}
-#shapes > div #blue-square {
-  height: 200px;
-  width: 200px;
-  background-color: #05deff;
+  background-color: black;
+  margin-top: 40vh;
 }
