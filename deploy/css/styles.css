@@ -414,12 +414,18 @@ textarea {
   grid-template-areas: ". shapes .";
   height: 100vh;
 }
-#shapes > div {
+#shapes div {
   grid-area: shapes;
 }
-#shapes > div #square {
+#shapes div #square {
   height: 100px;
   width: 100px;
   background-color: black;
+  margin-top: 40vh;
+}
+#shapes div #circle {
+  height: 50px;
+  width: 50px;
+  background-color: #635e8f;
   margin-top: 40vh;
 }

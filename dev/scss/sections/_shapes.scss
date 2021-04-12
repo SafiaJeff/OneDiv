@@ -4,16 +4,23 @@
 	grid-template-areas: ". shapes .";
 	height: 100vh;
 
-	> div {
+	div {
+		
 		grid-area: shapes;
 
 		#square {
+			
 			height: 100px;
 			width: 100px;
 			background-color: rgb(0, 0, 0);
 			margin-top: 40vh;
-			
-			
+		}
+
+		#circle {
+			height: 50px;
+			width: 50px;
+			background-color: rgb(99, 94, 143);
+			margin-top: 40vh;
 		}
 	}
 }
