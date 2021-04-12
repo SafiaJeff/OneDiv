@@ -1,26 +1,32 @@
 #shapes {
 	display: grid;
-	grid-template-columns: auto 50% auto;
+	grid-template-columns: auto 80% auto;
 	grid-template-areas: ". shapes .";
 	height: 100vh;
 
 	div {
-		
 		grid-area: shapes;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 400px;
+	
 
 		#square {
-			
 			height: 100px;
 			width: 100px;
 			background-color: rgb(0, 0, 0);
-			margin-top: 40vh;
+			// margin-top: 40vh;
 		}
 
 		#circle {
+
 			height: 50px;
 			width: 50px;
+			border-radius: 50%;
 			background-color: rgb(99, 94, 143);
-			margin-top: 40vh;
+			// margin-top: 40vh;
+			// opacity: 0;
 		}
 	}
 }
