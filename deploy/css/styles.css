@@ -410,7 +410,7 @@ textarea {
 ============= */
 #shapes {
   display: grid;
-  grid-template-columns: auto 60% auto;
+  grid-template-columns: auto 50% auto;
   grid-template-areas: ". shapes .";
   height: 100vh;
 }
@@ -418,8 +418,8 @@ textarea {
   grid-area: shapes;
 }
 #shapes > div #square {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   background-color: black;
   margin-top: 40vh;
 }
